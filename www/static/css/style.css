@@ -1430,19 +1430,13 @@ section {
   }
 }
 
-.youtube-video-container {
+.iframe-container {
   position: relative;
-  overflow: hidden;
   width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
 }
-
-.youtube-video-container::after {
-  display: block;
-  content: "";
-  padding-top: 56.25%;
-}
-
-.youtube-video-container iframe {
+.iframe-container iframe {
   position: absolute;
   top: 0;
   left: 0;
